@@ -1,7 +1,6 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAR26D5QJUDYMBQ6MA"
-  secret_key = "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"
+  shared_credentials_file="C:\\Users\\RUMAZUMD\\.awscredentials"
 }
 
 variable "subnet_prefix" {
